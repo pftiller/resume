@@ -1,2 +1,62 @@
 /* CSS Document */
+body {
+	background-color: #fff;
+}
+#resume {
+	width:80%;
+	margin:auto;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	border-radius: 15px;
+	background-color: #eee;
+	padding:15px;
+}
+header {
+	text-align: center;
+}
+h1,
+h2 {
+	margin-bottom:.25rem;
+}
 
+address {
+	font-style:normal;
+	white-space: nowrap;
+	line-height: 1.5;
+}
+li {
+	margin: 0 0 10px 0;
+}
+
+hr {
+	border-width: thick;
+}
+.no-list-style {
+	list-style-type: none;
+}
+.strong {
+	font-weight: bold;
+}
+.education-details {
+	text-indent: 2em;
+	font-style:italic;
+}
+.job-details {
+	border:#000000 2px solid;
+	clear:both;
+	height:85px;
+	background-color: #ccc;
+}
+.left {
+	float:left;
+	text-align: left;
+	margin-left:2.5%;
+}
+.right {
+	float:right;
+	text-align: right;
+	margin-right:2.5%;
+}
+.left,
+.right {
+	width:47.5%;
+}
